@@ -49,8 +49,8 @@ root.geometry("600x300")
 labelmain = ttk.Label(root, width=80, borderwidth=3,
                       relief="solid", background="#D4E6F1")
 labelmain.configure(text="""
-            Get result of Euler's number up to that many decimal places. Limit is 1000.
-            \r Please enter a non-negative integer number greater then 0""")
+            \rGet result of Euler's number up to that many decimal places. Limit is 1000.
+            \rPlease enter a non-negative integer number greater then 0""")
 labelmain.grid(row=0, column=0, columnspan=2, padx=5, pady=3, sticky="nswe")
 
 # Entry widget for user input
